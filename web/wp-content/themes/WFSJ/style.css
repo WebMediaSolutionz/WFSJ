@@ -1,0 +1,396 @@
+/*
+Theme Name: WFSJ Hepatitis
+Theme URI: http://www.webmediasolutionz.com/
+Description: WFSJ Hepatitis theme by Web Media Solutionz
+Author: Web Media Solutionz
+Author URI: http://www.webmediasolutionz.com/
+*/
+
+html,
+body {
+	font-family: Lato;
+}
+
+a {
+	color: #232323;
+}
+
+a:hover,
+a:focus {
+	color: #000221;
+	text-decoration: none;
+	outline: none;
+}
+
+.header_bg {
+	height: 350px;
+	background: url( 'images/bg/header_bg.jpg' ) no-repeat center 0;
+}
+
+.the_disease_banner {
+	height: 350px;
+	background: url( 'images/bg/the_disease.jpg' ) no-repeat center 0;
+}
+
+.the_treatment_banner {
+	height: 350px;
+	background: url( 'images/bg/the_treatment_for_boxes_use_e13a03.jpg' ) no-repeat center 0;
+}
+
+.public_policy_banner {
+	height: 350px;
+	background: url( 'images/bg/public_policy.jpg' ) no-repeat center 0;
+}
+
+.biology_basics_banner {
+	height: 350px;
+	background: url( 'images/bg/biology_basics.jpg' ) no-repeat center 0;
+}
+
+.logo {
+	display: block;
+	width: 270px;
+	height: 167px;
+	background: url( 'images/logo_orange.jpg' ) no-repeat;
+}
+
+.logo span {
+	display: none;
+}
+
+header nav {
+	width: 300px;
+	height: 183px;
+	margin-right: 270px;
+	background-color: #EEE0D5;
+	padding: 20px 30px 0 0;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li,
+footer nav ul li {
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+footer nav ul li {
+	text-align: left;
+}
+
+header nav ul li a {
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;;
+}
+
+footer nav a,
+footer nav a:hover {
+	font-weight: bold;
+	color: #000;
+}
+
+header nav ul li a:focus {
+	color: #000;
+}
+
+header nav ul li a:hover,
+header nav ul li a.current {
+	color: #FFF;
+}
+
+footer .logo {
+	background: url( 'images/logo_white.jpg' ) no-repeat;
+}
+
+footer .container div {
+	padding: 30px 0;
+	border-top: thin solid #000;
+	margin-top: 30px;
+}
+
+footer ul {
+	padding-left: 10px;
+	list-style-image: url( 'images/arrow.gif' );
+}
+
+.outline {
+	height: 20px;
+
+	border: thin solid red;
+}
+
+.main_container {
+	padding-bottom: 50px;
+}
+
+.main_container nav {
+	margin-top: 15px;
+}
+
+.main_container nav .col-sm-2 {
+	text-align: center;
+}
+
+.sprite {
+	display: block;
+	width: 128px;
+	height: 128px;
+	margin: 10px auto 15px auto;
+}
+
+.sprite span {
+	display: none;
+}
+
+.sprite.home span {
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 80px;
+}
+
+.small_description span {
+	font-size: 16px;
+}
+
+.home {
+	background: url( 'images/nav/home.png' ) no-repeat;
+}
+
+/*.home:hover,
+.home.current {
+	background: url( 'images/nav/home2.png' ) no-repeat;
+}*/
+
+.disease {
+	background: url( 'images/nav/globe.png' ) no-repeat;
+}
+
+.disease:hover,
+.disease.current {
+	background: url( 'images/nav/globe_hover.png' ) no-repeat;
+}
+
+.treatment {
+	background: url( 'images/nav/treatment.png' ) no-repeat;
+}
+
+.treatment:hover,
+.treatment.current {
+	background: url( 'images/nav/treatment_hover.png' ) no-repeat;
+}
+
+.public_policy {
+	background: url( 'images/nav/publicpolicy.png' ) no-repeat;
+}
+
+.public_policy:hover,
+.public_policy.current {
+	background: url( 'images/nav/publicpolicy_hover.png' ) no-repeat;
+}
+
+.biology_basics {
+	background: url( 'images/nav/microscope.png' ) no-repeat;
+}
+
+.biology_basics:hover,
+.biology_basics.current {
+	background: url( 'images/nav/microscope_hover.png' ) no-repeat;
+}
+
+.ask_an_expert {
+	background: url( 'images/nav/database_icon.png' ) no-repeat;
+}
+
+.ask_an_expert:hover,
+.ask_an_expert.current {
+	background: url( 'images/nav/database_icon_hover.png' ) no-repeat;
+}
+
+.content {
+	padding: 20px 0;
+}
+
+.content.buffer {
+	padding: 270px 0 20px 0;
+}
+
+.navbar-fixed-top {
+	left: auto;
+	right: auto;
+	width: inherit;
+}
+
+.title {
+
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;;
+}
+
+.wpcf7-form .row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.wpcf7-form input[type=text],
+.wpcf7-form input[type=email],
+.wpcf7-form textarea {
+	width: 100%;
+}
+
+.team_member {
+	background-color: #F6F6F6;
+}
+
+.team_member h5 a,
+.team_member h5 a:hover {
+	color: #000;
+}
+
+.team_member .details {
+	min-height: 100px;
+	padding: 10px 15px;
+}
+
+.team_member .picture {
+	display: block;
+	width: 100%;
+	height: auto;
+
+	background-color: #000;
+}
+
+.team_member .picture img {
+	width: 100%;
+	height: auto;
+}
+
+.bio .picture img {
+	width: 100%;
+	height: 100%;
+}
+
+.row.team {
+	margin-bottom: 30px;
+}
+
+.row.team:last-child {
+	margin-bottom: 0;
+}
+
+.position {
+	color: #a9a5a5;
+	border-bottom: thin solid #a9a5a5;
+	margin: 20px 0;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+
+address {
+	color: #a9a5a5;
+}
+
+address p {
+	color: #000;
+}
+
+#wpbdp-bar-submit-listing-button,
+#wpbdp-bar-show-directory-button,
+.wpbdp-form-field-label-name,
+.reset {
+	display: none;
+}
+
+.label {
+	color: #000;
+	font-size: 100%;
+	background-color: #999;
+}
+
+.label label {
+	color: #FFF;
+}
+
+#wpbdp-search-form .wpbdp-search-filter > div.label {
+	width: 25% !important;
+}
+
+#wpbdp-search-form .wpbdp-search-filter > div.field {
+	margin-left: 0 !important;
+	float: left;
+}
+
+#wpbdp-search-form .wpbdp-search-filter {
+	margin-bottom: 10px;
+	clear: both !important;
+	height: 30px;
+}
+
+#wpbdp-search-form-wrapper {
+	width: 60%;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and ( max-width : 1200px ) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and ( max-width : 768px ) {
+	header nav {
+		width: 270px;
+		margin-right: 0;
+		padding: 5px 30px 0 0;
+	}
+
+	.navbar-fixed-top {
+		width: 100%;
+	}	
+}
+
+@media only screen and ( max-width : 480px ) {
+	
+}
+
+.post-content {
+	text-align: justify;
+	font-size: 18px !important;
+}
+
+.post-content p {
+	margin-bottom: 24px;
+	color: #000;
+}
+
+.post-content h2 {
+	font-size: 20px;
+	margin: 3px 0 24px;
+	letter-spacing: 1px;
+}
+
+.post-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+#wpbdp-search-form-wrapper h3 {
+	color: #3366ff;
+	font-weight: bold;
+}
